@@ -1,6 +1,6 @@
 
 		var expand = false;
-$(".menu-button").on("click", function(){
+		$(".menu-button").on("click", function(){
 				if(!expand){
 					$(".bla").animate({
 						marginLeft:"0px"

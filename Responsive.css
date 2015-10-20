@@ -3,9 +3,10 @@ background-image: linear-gradient( #e0d4c4, #21273d);
 box-shadow: inset 0 0 100px hsla(0,0%,0%,.3);
 padding:0;
 margin: 0;
+
 }
 #main{
-width:768px;
+width:70%;
 }
 .gradient1 {
 height:275px;
@@ -209,15 +210,14 @@ right:4%;
 }
 
 .bla{
-display:table-cell;
-position:fixed;
-height:1016px;
+position:absolute;
 width:320px;
 background-color:#303d4d;
 z-index:1000;
 margin-left:-320px;
 text-align:center;
-
+height:1020px;
+overflow:scroll;
 }
 .class{
 box-shadow: 50px -5px 60px 20px rgba(48,61,67,0.6);
@@ -319,7 +319,7 @@ position:relative;
 top:7px;
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1285px) {
 #main{
 width:100%;
 }
